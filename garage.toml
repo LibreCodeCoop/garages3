@@ -8,8 +8,8 @@ replication_factor = 3
 compression_level = 2
 
 rpc_bind_addr = "[::]:3901"
-rpc_public_addr = "$PUBLIC_IP:3901"
-rpc_secret = "$RPC_SECRET"
+rpc_public_addr = ":3901"
+rpc_secret = ""
 
 
 [s3_api]
